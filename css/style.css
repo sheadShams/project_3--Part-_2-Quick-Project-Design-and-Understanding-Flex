@@ -1,0 +1,171 @@
+/* +++++++++ Golobal Css +++++++++++*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.container{
+	width: 1200px;
+	margin: auto;
+}
+ 
+ .row{
+
+display: flex;
+
+flex-wrap: wrap;
+
+}
+img{
+ 	max-width: 100%;
+ }
+ .col-3{
+    max-width: 33.33%;
+    flex: 1 0 33.33%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+ /* +++++++++ Header Css +++++++++++*/
+ header{
+        border-bottom: 2px solid #3b506c1a;
+ }
+ header .row{
+ align-items: center;
+ }
+ .logo{
+
+flex-basis: 20%;
+
+max-width: 20%;
+
+}
+.logo a{}
+
+.logo a img{}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+nav ul li{}
+nav ul li a {
+    display: block;
+    padding: 24px 18px;
+    color: #3b506c;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 18px;
+}
+nav ul li a:hover {}
+
+ /* +++++++++ Banner Section Css +++++++++++*/
+ .banner-section{padding: 50px 0px;}
+ .content{
+    text-align: center;
+}
+ .content h1{
+    font-size: 55px;
+    color: #3b506c;
+}
+ .content h1 span{
+    display: block;
+    color: #0c66ff;
+}
+ .content img{
+    max-width: 550px;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+ .content p{
+    color: #3b506cbf;
+    font-size: 18px;
+    max-width: 1000px;
+    margin: 20px auto;
+    font-weight: 300;
+}
+
+  /* +++++++++ feature section +++++++++++*/
+.feature-section{
+    padding-top: 30px;
+}
+.feature-section .row{
+    justify-content: center;
+}
+.feature-content{}
+.feature-content h2{
+    font-size: 50px;
+    color: #3b506c;
+    line-height: 1;
+    font-weight: 800;
+}
+.feature-content h2 span{color: #ff6584;}
+.feature-content p{
+    color: #3b506cbf;
+    font-size: 18px;
+    margin: 5px auto;
+    font-weight: 400;
+}
+.text-right{
+	text-align: right;
+}
+
+ /* +++++++++ Block section +++++++++++*/
+.block-section{
+	
+padding: 50px 0px;
+}
+.post{
+    padding: 60px 30px;
+    box-shadow: 5px 5px 2px -2px #3b506c30;
+}
+.i5{
+    background: #FDEBED;
+}
+.i6{
+    background: #EBF9F4;
+}
+.i7{
+    background: #fff7e8;
+}
+.post img{
+    max-height: 160px;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.post h3{
+    font-size: 24px;
+    color: #3b506c;
+    line-height: 1;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+.post p{
+    color: #3b506cbf;
+    font-size: 17px;
+    margin: 5px auto;
+    font-weight: 400;
+}
+ /* +++++++++ footer section +++++++++++*/
+ footer{
+    background: #008aff;
+    padding: 30px 0px;
+    text-align: center;
+    color: #f9f3f3d1;
+}
+ footer p{}
+ footer p strong{
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
